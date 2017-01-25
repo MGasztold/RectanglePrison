@@ -44,6 +44,6 @@ Coordinate system definition:
 	
 	Output:
 	
-		Line function: y = -2.7474774194546208x + 18.737387097273103
+		Line equation: y = -2.7474774194546208x + 18.737387097273103
 		Found intersection with: top side
-		Intersection point: (6.819851171331012,10)
+		Intersection point: (6.819851171331012,0)

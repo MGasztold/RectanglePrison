@@ -39,7 +39,7 @@ function computeIntersection(width, height, angleDeg, x0, y0) {
             x = (0 - b) / a;
             intersectionSide = 'top'
             intersection_x = x;
-            intersection_y = height;
+            intersection_y = 0;
         }
 
     } else if (angleDeg > 90 && angleDeg < 180) {
