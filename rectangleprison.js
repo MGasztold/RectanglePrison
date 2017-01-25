@@ -19,7 +19,7 @@ function computeIntersection(width, height, angleDeg, x0, y0) {
     // first compute the linear function coefficients:
     var a = math.cos(angle) / math.sin(angle);
     var b = y0 - x0 * (math.cos(angle) / math.sin(angle));
-    console.log('Line function: y = ' + a + 'x + ' + b);
+    console.log('Line equation: y = ' + a + 'x + ' + b);
 
     var intersectionSide;
     var intersection_x;
@@ -31,7 +31,7 @@ function computeIntersection(width, height, angleDeg, x0, y0) {
         // first compute intersection with right vertical side:
         y = a * width + b;
         if (y >= 0) {
-        	intersectionSide = 'right'
+            intersectionSide = 'right'
             intersection_x = width;
             intersection_y = y;
         } else {
@@ -48,7 +48,7 @@ function computeIntersection(width, height, angleDeg, x0, y0) {
         y = a * width + b;
 
         if (y <= height) {
-        	intersectionSide = 'right'
+            intersectionSide = 'right'
             intersection_x = width;
             intersection_y = y;
         } else {
@@ -63,7 +63,7 @@ function computeIntersection(width, height, angleDeg, x0, y0) {
         // first compute intersection with left vertical side:
         y = a * 0 + b;
         if (y <= height) {
-        	intersectionSide = 'left'
+            intersectionSide = 'left'
             intersection_x = 0;
             intersection_y = y;
         } else {
@@ -79,7 +79,7 @@ function computeIntersection(width, height, angleDeg, x0, y0) {
         // first compute intersection with left vertical side:
         y = a * 0 + b;
         if (y >= 0) {
-        	intersectionSide = 'left'
+            intersectionSide = 'left'
             intersection_x = 0;
             intersection_y = y;
         } else {
@@ -90,24 +90,24 @@ function computeIntersection(width, height, angleDeg, x0, y0) {
             intersection_y = 0;
         }
     } else if (angleDeg == 90) {
-    	intersectionSide = 'right'
+        intersectionSide = 'right'
         intersection_x = width;
         intersection_y = y0;
     } else if (angleDeg == 270) {
-    	intersectionSide = 'left'
+        intersectionSide = 'left'
         intersection_x = 0;
         intersection_y = y0;
     } else if (angleDeg == 0) {
-    	intersectionSide = 'top'
+        intersectionSide = 'top'
         intersection_x = x0;
         intersection_y = 0;
     } else if (angleDeg == 180) {
-    	intersectionSide = 'bottom'
+        intersectionSide = 'bottom'
         intersection_x = x0;
         intersection_y = height;
     }
 
-    console.log('Found intersection with: ' + intersectionSide +' side');
+    console.log('Found intersection with: ' + intersectionSide + ' side');
     console.log('Intersection point: (' + intersection_x + ',' + intersection_y + ')');
 
 

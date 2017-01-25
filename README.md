@@ -22,7 +22,7 @@ Coordinate system definition:
 		
 3. To see usage information please call:
 
-		node rectangleprison.js --help
+		node rectangleprison --help
 
 	Output:
 
