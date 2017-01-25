@@ -14,9 +14,9 @@ Coordinate system definition:
 
 ## How to use
 
-1. First install `node.js` on your machine. See: [https://nodejs.org](https://nodejs.org/)
+1. Install `node.js` on your machine. See: [https://nodejs.org](https://nodejs.org/)
 
-2. go to the `RectanglePrison` directory in your terminal and call:
+2. Go to the `RectanglePrison` directory in your terminal and call:
 	
 		npm install
 		
