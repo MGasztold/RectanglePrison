@@ -12,9 +12,11 @@ Coordinate system definition:
 
 ## How to use
 
-To see usage information:
+To see usage information please call:
 
 	node rectangleprison.js --help
+
+Output:
 
 	Usage: rectangleprison [options]
 	
@@ -34,7 +36,7 @@ Call:
 
 	node rectangleprison --height 10 --width 10 -x 5 -y 5 --angle 20
 
-Result:
+Output:
 
 	Line function: y = -2.7474774194546208x + 18.737387097273103
 	Found intersection with: top side
