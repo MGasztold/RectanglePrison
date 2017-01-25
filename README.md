@@ -12,32 +12,36 @@ Coordinate system definition:
 
 ## How to use
 
-To see usage information please call:
+1. First install `node.js` on your machine. See: [https://nodejs.org](https://nodejs.org/)
 
-	node rectangleprison.js --help
-
-Output:
-
-	Usage: rectangleprison [options]
+2. go to the `RectanglePrison` directory in your terminal and call:
 	
-	Options:
+		npm install
+		
+3. To see usage information please call:
 
-	-h, --help     output usage information
-    -V, --version  output the version number
-    --width <n>    width of the rectangle
-    --height <n>   heigth of the rectangle
-    -x, --x0 <n>   x coordinate of the start point
-    -y, --y0 <n>   y coordinate of the start point
-    --angle <n>    angle in degrees at which the line heads
+		node rectangleprison.js --help
+
+	Output:
+
+		Usage: rectangleprison [options]
+		
+		Options:
+	
+		-h, --help     output usage information
+	    -V, --version  output the version number
+	    --width <n>    width of the rectangle
+	    --height <n>   heigth of the rectangle
+	    -x, --x0 <n>   x coordinate of the start point
+	    -y, --y0 <n>   y coordinate of the start point
+	    --angle <n>    angle in degrees at which the line heads
     
-#### Example output:
-
-Call:
-
-	node rectangleprison --height 10 --width 10 -x 5 -y 5 --angle 20
-
-Output:
-
-	Line function: y = -2.7474774194546208x + 18.737387097273103
-	Found intersection with: top side
-	Intersection point: (6.819851171331012,10)
+4. Example launch from the terminal:
+	
+		node rectangleprison --height 10 --width 10 -x 5 -y 5 --angle 20
+	
+	Output:
+	
+		Line function: y = -2.7474774194546208x + 18.737387097273103
+		Found intersection with: top side
+		Intersection point: (6.819851171331012,10)
