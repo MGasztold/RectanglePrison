@@ -1,0 +1,15 @@
+{
+  "name": "rectangleprison",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "michal.gasztold",
+  "license": "ISC",
+  "dependencies": {
+  	"commander": "*",
+    "mathjs": "*"
+  }
+}
