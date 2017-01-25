@@ -5,7 +5,9 @@ Script finds an intersection point of a line with one of the sides of a rectangl
 - it starts at the `(x0, y0)` point
 - it heads in a direction described by the given `angle` (from 0 to 360 degrees)
 
-The rectangle is described by its width and height
+The rectangle is described by its width and height.
+
+**Note:** The `(x0,y0)` starting point coordinates must lie inside the rectangle.
 
 Coordinate system definition:
 <p align="center"><img src="coordinate_system.jpg" width="600" /></p>
