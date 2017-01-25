@@ -46,7 +46,6 @@ function computeIntersection(width, height, angleDeg, x0, y0) {
         // intersection is in the bottom right part of the rectangle
         // first compute intersection with right vertical side:
         y = a * width + b;
-
         if (y <= height) {
             intersectionSide = 'right'
             intersection_x = width;
