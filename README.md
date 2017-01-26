@@ -16,11 +16,11 @@ Coordinate system definition:
 
 1. Install `node.js` on your machine. See: [https://nodejs.org](https://nodejs.org/)
 
-2. Go to the `RectanglePrison` directory in your terminal and call:
+2. Open terminal and go to the `RectanglePrison` directory. Then call:
 	
 		npm install
-		
-3. To see usage information please call:
+
+3. To see script's usage information call:
 
 		node rectangleprison --help
 
